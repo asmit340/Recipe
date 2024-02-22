@@ -35,7 +35,7 @@ nav img{
 nav li{
     display:inline-flex;
     width: 50px;
-    margin-right: 35px;
+    margin-right: 40px;
 }
 nav{
     position: absolute;
@@ -55,7 +55,7 @@ nav .home{
 nav .PROFILE{
     position: absolute;
     top: 5px;
-    right: -10px;
+    right: 20px;
 }
 
 .Break, .Brunch, .LUNCH, .Dinner, .Appe, .De, .Be{
@@ -66,10 +66,10 @@ nav .PROFILE{
 #menu{
     position: relative;
     top: 133px;
-    left: 0px;
+    left: px;
     color: #eb5428;
     background-color: rgba(242, 242, 242,.5);
-    max-width: 700px;
+    max-width: 7015px;
 }
 
 #menu li{
@@ -89,13 +89,12 @@ h1{
 }
 
 .Street img{
-    position:relative;
-    width: 768px;
+    max-width: 752px;
 }
 
 .Street p{
     overflow-wrap: break-word;
-    width: 670px;
+    width: 685px;
     padding-left: 10px;
 }
 
@@ -284,9 +283,9 @@ footer p{
 }
 
 .search{
-    position: relative;
-    top: -2600px;
-    left: 550px;
+    position: absolute;
+    top: 46px;
+    left: 620px;
     background-color: #eb5428;
     width: 50px;
 
