@@ -1,0 +1,295 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+html{
+    max-width: 768px;
+    background-color: rgba(122, 191, 191,.5);
+}
+
+body{
+    background-color:#f2f2f2;
+}
+
+h1, h2, h3, .social li, footer p, nav, #menu{
+    font-family:'Bebas Neue';
+}
+.social li, footer, #menu, nav{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+
+
+p, .Directions li, .Ingredients li{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+nav img{
+    width: 70px;
+}
+nav li{
+    display:inline-flex;
+    width: 50px;
+    margin-right: 35px;
+}
+nav{
+    position: absolute;
+    top: 10px;
+    left: -70px;
+    color: #eb5428;
+}
+nav figcaption{
+    text-align: center;
+}
+nav .home{
+    position: absolute;
+    top: -5px;
+    left: 36px;
+}
+
+nav .PROFILE{
+    position: absolute;
+    top: 5px;
+    right: -10px;
+}
+
+.Break, .Brunch, .LUNCH, .Dinner, .Appe, .De, .Be{
+    margin-left: -30px;
+    margin-top: 100px;
+}
+
+#menu{
+    position: relative;
+    top: 133px;
+    left: 0px;
+    color: #eb5428;
+    background-color: rgba(242, 242, 242,.5);
+    max-width: 700px;
+}
+
+#menu li{
+    display:inline-flex;
+    margin-right: 30px;
+}
+#menu figcaption{
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    top: 170px;
+    padding-top: 50px;
+    left: 10px;
+    font-size: 40px;
+}
+
+.Street img{
+    max-width: 688px;
+}
+
+.Street p{
+    overflow-wrap: break-word;
+    width: 670px;
+    padding-left: 10px;
+}
+
+.Details{
+    position: relative;
+    text-align: center;
+}
+
+.Ingredients{
+    position: relative; 
+    left:-20px;
+    line-height: 2em;
+}
+
+.Ingredients h3{
+    margin-left: 60px;
+}
+.Directions{
+    position: relative; 
+    overflow-wrap: break-word;
+    width: 400px;
+    text-align: justify;
+    left: 250px;
+    top: -430px;
+    line-height: 1.5em;
+}
+
+.Directions h3{
+    text-align: center;
+}
+
+.sides h2{
+    text-align: center;
+}
+.sides{
+    position: relative;
+    margin-top: -360px;
+    background-color: #74bfbf;
+    padding-bottom: 5px;
+}
+.sides img{
+    width: 80px;
+}
+.sides figcaption{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 16px;
+}
+#rice{
+    position: relative;
+    margin-left: -40px;
+}
+
+#rice h3{
+    top: -100px;
+    margin-left: 90px;
+}
+
+#rice img{
+    margin-top: -65px;
+}
+
+#rice figcaption{
+    margin-top: -10px;
+    margin-left: 90px;
+}
+#rice p{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+
+#guac{
+    position: relative;
+    margin-left: -40px;
+    margin-top: -150px;
+}
+
+#guac h3{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#guac img{
+    position: relative;
+    margin-top: 15px;
+}
+
+#guac figcaption{
+    margin-top: -10px;
+    margin-left: 90px;
+}
+#guac p{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+
+#salsa{
+    position:relative;
+    top: -160px;
+    left: 305px;
+}
+
+#salsa h3{
+    position: relative;
+    top: 55px;
+    margin-left: 90px;
+}
+
+#salsa img{
+    position: relative;
+    margin-top: -5px;
+}
+
+#salsa figcaption{
+    position: relative;
+    margin-top: -10px;
+    margin-left: 90px;
+}
+#salsa p{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+
+#tortilla{
+    position:absolute;
+    top: 100px;
+    left: 305px;
+}
+
+#tortilla h3{
+    position: relative;
+    top: 60px;
+    margin-left: 90px;
+}
+
+#tortilla figcaption{
+    margin-top: -10px;
+    margin-left: 90px;
+}
+#tortilla p{
+    margin-left: 90px;
+    margin-top: -50px;
+    width: 500px;
+}
+.social svg{
+    width: 30px;
+}
+.social{
+    position: relative;
+    top: -60px;
+    left: 115px;
+    color: #eb5428;
+    width: -50px;
+    text-align: center;
+}
+.social li{
+    display:inline-flex;
+    margin-right: -55px;
+    width: -50px;
+}
+.social figcaption{
+    text-align: center;
+}
+
+footer{
+    padding-bottom: 100px;
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+footer img{
+    position:absolute;
+    width:190px;
+    margin-top: -200px;
+    margin-left:55px;
+}
+
+footer p{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    left: 105px;
+    bottom: -75px;
+    width: 100px;
+    overflow-wrap: break-word;
+}
+
+.search{
+    position: absolute;
+    top: 45px;
+    left: 550px;
+    background-color: #eb5428;
+
+}
+
+head{
+    background-color: #ffffff;
+}
