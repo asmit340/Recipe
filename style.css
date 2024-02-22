@@ -89,7 +89,8 @@ h1{
 }
 
 .Street img{
-    max-width: 688px;
+    position:relative;
+    width: 768px;
 }
 
 .Street p{
@@ -283,10 +284,11 @@ footer p{
 }
 
 .search{
-    position: absolute;
-    top: 45px;
+    position: relative;
+    top: -2600px;
     left: 550px;
     background-color: #eb5428;
+    width: 50px;
 
 }
 
